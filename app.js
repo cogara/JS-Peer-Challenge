@@ -23,3 +23,17 @@ console.log(provided.toUpperCase());
 
 //"Hello World?"
 console.log(provided.replace('!', '?'));
+
+console.log('');
+console.log("##Hard Mode!");
+//"'ello"
+console.log(provided.replace('H', '\'').substring(0,5));
+
+//"!dlroW olleH"
+console.log(provided.split('').reverse().join(''));
+
+//"1111"
+console.log(provided.substring(0, 1).length.toString().repeat(4));
+
+//["Hello","World!"]
+console.log(provided.split(' '));
